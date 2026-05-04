@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* 🔝 Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #0077ff;
+}
+
+/* 🎯 Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Redes */
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.social a:hover {
+    color: #0077ff;
+}
+
+/* ⭐ Proyectos */
+.featured {
+    padding: 60px 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card a {
+    text-decoration: none;
+    color: #0077ff;
+}
