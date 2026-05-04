@@ -78,3 +78,19 @@ body {
     text-decoration: none;
     color: #0077ff;
 }
+
+.hero {
+    height: 400px; /* altura del rectángulo */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    background-image: url("../assets/fondo-hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
