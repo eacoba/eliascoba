@@ -80,17 +80,28 @@ body {
 }
 
 .hero {
-    height: 400px; /* altura del rectángulo */
-    
+    position: relative;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    text-align: center;
     color: white;
+    text-align: center;
 
-    background-image: url("../assets/fondo-hero.jpg");
+    background-image: url("../assets/fondo.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero * {
+    position: relative;
 }
