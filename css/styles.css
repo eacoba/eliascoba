@@ -126,3 +126,21 @@ body {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.blog-post {
+    max-width: 850px;
+    margin: auto;
+    padding: 60px 20px;
+    line-height: 1.8;
+    font-size: 18px;
+}
