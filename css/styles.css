@@ -144,3 +144,85 @@ body {
     line-height: 1.8;
     font-size: 18px;
 }
+
+/* HERO DEL ARTÍCULO */
+.article-hero {
+    position: relative;
+    height: 400px;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+/* Oscurece el fondo */
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.article-hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.article-meta {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* CONTENIDO DEL BLOG */
+.blog-post {
+    max-width: 850px;
+    margin: auto;
+    padding: 70px 25px;
+
+    line-height: 1.9;
+}
+
+/* PÁRRAFOS */
+.blog-post p {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* SUBTÍTULOS */
+.blog-post h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* IMÁGENES */
+.article-image {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.article-image img {
+    width: 100%;
+    max-width: 700px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.article-image figcaption {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}
